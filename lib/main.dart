@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/widgets/clip_r_rect_example.dart';
+import 'package:project/widgets/text_field_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ClipRRectExample(),
+      home: TextFieldExample(),
     );
   }
 }
